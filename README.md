@@ -1,0 +1,50 @@
+# AI-Driven Congestion Prediction for 6G IoT Networks
+
+## Overview
+
+This project presents an AI-driven anticipatory congestion control framework for simulated 6G IoT backhaul networks using Machine Learning and Software Defined Networking (SDN).
+
+The framework predicts network congestion using a Multi-Layer Perceptron (MLP) model trained on telemetry parameters such as:
+
+- Queue Size
+- Network Latency
+- Available Bandwidth
+
+## Features
+
+- Congestion prediction using MLP
+- Real-time telemetry analysis
+- SDN-based congestion management
+- Dataset generation and training pipeline
+- Performance visualization
+
+## Technologies
+
+- Python
+- Scikit-Learn
+- Mininet-WiFi
+- Open vSwitch
+- SDN
+- MLP Neural Networks
+
+## Results
+
+- 97% congestion prediction accuracy
+- Average latency reduced from 41.61 ms to 18.61 ms
+- Approximately 55% latency improvement
+
+## Project Structure
+
+```text
+AI-Driven-Congestion-Prediction-6G-IoT
+├── README.md
+├── dataset
+├── research-paper
+├── results
+└── src
+```
+
+## Author
+
+Vinayak Khandelwal
+NSUT Delhi
