@@ -48,3 +48,8 @@ AI-Driven-Congestion-Prediction-6G-IoT
 
 Vinayak Khandelwal
 NSUT Delhi
+## Development Progress
+
+### May 20
+Initial project implementation covering the congestion dataset,
+AI telemetry, ANN training pipeline, and 6G backhaul simulation.
