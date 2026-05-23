@@ -53,3 +53,7 @@ NSUT Delhi
 ### May 20
 Initial project implementation covering the congestion dataset,
 AI telemetry, ANN training pipeline, and 6G backhaul simulation.
+
+### May 23
+Documented the overall workflow connecting telemetry collection,
+AI-based congestion prediction, and the backhaul control process.
