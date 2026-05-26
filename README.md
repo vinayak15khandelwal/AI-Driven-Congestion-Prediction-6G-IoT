@@ -57,3 +57,7 @@ AI telemetry, ANN training pipeline, and 6G backhaul simulation.
 ### May 23
 Documented the overall workflow connecting telemetry collection,
 AI-based congestion prediction, and the backhaul control process.
+
+### May 26
+Expanded documentation for the AI prediction component and
+anticipatory congestion-control mechanism.
