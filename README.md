@@ -61,3 +61,7 @@ AI-based congestion prediction, and the backhaul control process.
 ### May 26
 Expanded documentation for the AI prediction component and
 anticipatory congestion-control mechanism.
+
+### May 29
+Added documentation describing the evaluation process and
+congestion-performance results.
