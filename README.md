@@ -65,3 +65,7 @@ anticipatory congestion-control mechanism.
 ### May 29
 Added documentation describing the evaluation process and
 congestion-performance results.
+
+### May 31
+Finalized the initial project documentation and consolidated
+the implementation, workflow, and evaluation overview.
