@@ -9,6 +9,11 @@ The framework predicts network congestion using a Multi-Layer Perceptron (MLP) m
 - Queue Size
 - Network Latency
 - Available Bandwidth
+## ACCF Architecture
+
+The proposed Anticipatory Congestion Control Framework (ACCF) integrates SDN telemetry and Machine Learning to predict congestion before queue overflow occurs.
+
+![ACCF Architecture](assets/accf-architecture.png)
 
 ## Features
 
