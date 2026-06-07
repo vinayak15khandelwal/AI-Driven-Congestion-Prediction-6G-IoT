@@ -51,7 +51,17 @@ AI-Driven-Congestion-Prediction-6G-IoT
 ├── results
 └── src
 ```
+## Research Paper
 
+This project is based on the research paper:
+
+**AI-Driven Anticipatory Congestion Prediction Framework for 6G IoT Backhaul Networks**
+
+The proposed ACCF framework combines SDN telemetry, machine learning-based congestion prediction, and proactive traffic control to reduce latency and prevent congestion in 6G IoT backhaul networks.
+
+The complete paper is available in:
+
+`research-paper/6G_PROJECT_RESEARCH_PAPER.pdf`
 ## Author
 
 Vinayak Khandelwal
