@@ -18,6 +18,28 @@ The Anticipatory Congestion Control Framework (ACCF) consists of three interconn
 - Intelligence Plane: MLP classifier predicting congestion and triggering throttle decisions.
 
 ![ACCF Architecture](assets/accf-architecture.png)
+## Project Structure
+
+```text
+AI-Driven-Congestion-Prediction-6G-IoT/
+│
+├── dataset/
+│   └── congestion_dataset.csv
+│
+├── src/
+│   ├── 6G_Backhaul.py
+│   ├── ai_telemetry.py
+│   └── train_ann.py
+│
+├── results/
+│   └── congestion_graph.png
+│
+├── research-paper/
+│   └── 6G_PROJECT_RESEARCH_PAPER.pdf
+│
+└── README.md
+```
+
 ## Features
 
 - Congestion prediction using MLP
