@@ -84,6 +84,14 @@ The proposed ACCF framework combines SDN telemetry, machine learning-based conge
 The complete paper is available in:
 
 `research-paper/6G_PROJECT_RESEARCH_PAPER.pdf`
+## Future Work
+
+- Integrate real-time telemetry collection from IoT devices.
+- Deploy the MLP model as a live congestion prediction service.
+- Extend the framework for larger 6G edge networks.
+- Compare MLP performance with Random Forest and XGBoost models.
+- Implement adaptive bandwidth allocation based on predictions.
+- Evaluate performance under varying traffic loads and latency conditions.
 ## Author
 
 Vinayak Khandelwal
