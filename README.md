@@ -93,6 +93,26 @@ The proposed ACCF framework combines SDN telemetry, machine learning-based conge
 The complete paper is available in:
 
 `research-paper/6G_PROJECT_RESEARCH_PAPER.pdf`
+
+## Performance Evaluation
+
+The proposed ACCF framework was evaluated against a traditional Drop-Tail congestion management approach.
+
+| Metric | Drop-Tail | ACCF |
+|----------|----------|----------|
+| Average Latency | 33.28 ms | 18.61 ms |
+| Maximum Latency | 44.87 ms | 23.06 ms |
+| Packet Loss | Present | Zero |
+| Prediction Accuracy | - | 97% |
+
+### Key Outcomes
+
+- Achieved 97% congestion prediction accuracy.
+- Reduced average latency by approximately 44%.
+- Reduced maximum latency by approximately 49%.
+- Eliminated packet loss during congestion scenarios.
+- Enabled proactive congestion mitigation using SDN and Machine Learning.
+
 ## Future Work
 
 - Integrate real-time telemetry collection from IoT devices.
