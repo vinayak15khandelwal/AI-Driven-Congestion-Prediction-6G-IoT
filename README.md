@@ -81,16 +81,6 @@ AI-Driven-Congestion-Prediction-6G-IoT/
 - Average latency reduced from 41.61 ms to 18.61 ms
 - Approximately 55% latency improvement
 
-## Project Structure
-
-```text
-AI-Driven-Congestion-Prediction-6G-IoT
-├── README.md
-├── dataset
-├── research-paper
-├── results
-└── src
-```
 ## Research Paper
 
 This project is based on the research paper:
