@@ -6,27 +6,28 @@ This project presents an AI-driven anticipatory congestion control framework for
 
 The framework predicts network congestion using a Multi-Layer Perceptron (MLP) model trained on telemetry parameters such as:
 
-- Queue Size
-- Network Latency
-- Available Bandwidth
+* Queue Size
+* Network Latency
+* Available Bandwidth
 
 ## Key Contributions
 
-- Designed an AI-driven Anticipatory Congestion Control Framework (ACCF) for 6G IoT backhaul networks.
-- Implemented congestion prediction using a Multi-Layer Perceptron (MLP) model.
-- Integrated Software Defined Networking (SDN) telemetry for proactive traffic management.
-- Developed a simulation environment for evaluating congestion scenarios.
-- Demonstrated significant latency reduction through predictive congestion control.
+* Designed an AI-driven Anticipatory Congestion Control Framework (ACCF) for 6G IoT backhaul networks.
+* Implemented congestion prediction using a Multi-Layer Perceptron (MLP) model.
+* Integrated Software Defined Networking (SDN) telemetry for proactive traffic management.
+* Developed a simulation environment for evaluating congestion scenarios.
+* Demonstrated significant latency reduction through predictive congestion control.
 
 ## ACCF Architecture
 
 The Anticipatory Congestion Control Framework (ACCF) consists of three interconnected planes:
 
-- Data Plane: IoT sensors, gNodeB, OVS switch and MEC server.
-- Control Plane: SDN controller collecting flow statistics.
-- Intelligence Plane: MLP classifier predicting congestion and triggering throttle decisions.
+* Data Plane: IoT sensors, gNodeB, OVS switch, and MEC server.
+* Control Plane: SDN controller collecting flow statistics.
+* Intelligence Plane: MLP classifier predicting congestion and triggering throttle decisions.
 
 ![ACCF Architecture](assets/accf-architecture.png)
+
 ## Workflow
 
 1. IoT sensors generate telemetry traffic.
@@ -36,10 +37,14 @@ The Anticipatory Congestion Control Framework (ACCF) consists of three interconn
 5. The MLP classifier predicts whether congestion is likely to occur.
 6. Based on the prediction, the controller decides to maintain normal operation or throttle traffic.
 7. The decision helps prevent queue overflow and reduces network latency.
+
 ## Project Structure
 
 ```text
 AI-Driven-Congestion-Prediction-6G-IoT/
+│
+├── assets/
+│   └── accf-architecture.png
 │
 ├── dataset/
 │   └── congestion_dataset.csv
@@ -60,26 +65,28 @@ AI-Driven-Congestion-Prediction-6G-IoT/
 
 ## Features
 
-- Congestion prediction using MLP
-- Real-time telemetry analysis
-- SDN-based congestion management
-- Dataset generation and training pipeline
-- Performance visualization
+* Congestion prediction using MLP
+* Real-time telemetry analysis
+* SDN-based congestion management
+* Dataset generation and training pipeline
+* Performance visualization
 
-## Technologies
+## Technologies Used
 
-- Python
-- Scikit-Learn
-- Mininet-WiFi
-- Open vSwitch
-- SDN
-- MLP Neural Networks
+* Python
+* Scikit-Learn
+* Mininet-WiFi
+* Open vSwitch
+* Software Defined Networking (SDN)
+* Multi-Layer Perceptron (MLP)
 
 ## Results
 
-- 97% congestion prediction accuracy
-- Average latency reduced from 41.61 ms to 18.61 ms
-- Approximately 55% latency improvement
+- Achieved 97% congestion prediction accuracy.
+- Reduced average latency through proactive congestion control.
+- Reduced maximum latency during high-traffic scenarios.
+- Eliminated packet loss under tested congestion conditions.
+- Enabled predictive traffic management using SDN and Machine Learning.
 
 ## Research Paper
 
@@ -95,53 +102,31 @@ The complete paper is available in:
 
 ## Performance Evaluation
 
-The proposed ACCF framework was evaluated against a traditional Drop-Tail congestion management approach.
-
-| Metric | Drop-Tail | ACCF |
-|----------|----------|----------|
-| Average Latency | 33.28 ms | 18.61 ms |
-| Maximum Latency | 44.87 ms | 23.06 ms |
-| Packet Loss | Present | Zero |
-| Prediction Accuracy | - | 97% |
+| Metric              | Traditional Drop-Tail | ACCF     |
+| ------------------- | --------------------- | -------- |
+| Average Latency     | 33.28 ms              | 18.61 ms |
+| Maximum Latency     | 44.87 ms              | 23.06 ms |
+| Packet Loss         | Present               | Zero     |
+| Prediction Accuracy | -                     | 97%      |
 
 ### Key Outcomes
 
-- Achieved 97% congestion prediction accuracy.
-- Reduced average latency by approximately 44%.
-- Reduced maximum latency by approximately 49%.
-- Eliminated packet loss during congestion scenarios.
-- Enabled proactive congestion mitigation using SDN and Machine Learning.
+* Achieved 97% congestion prediction accuracy.
+* Reduced average latency by approximately 44%.
+* Reduced maximum latency by approximately 49%.
+* Eliminated packet loss during congestion scenarios.
+* Enabled proactive congestion mitigation using SDN and Machine Learning.
 
 ## Future Work
 
-- Integrate real-time telemetry collection from IoT devices.
-- Deploy the MLP model as a live congestion prediction service.
-- Extend the framework for larger 6G edge networks.
-- Compare MLP performance with Random Forest and XGBoost models.
-- Implement adaptive bandwidth allocation based on predictions.
-- Evaluate performance under varying traffic loads and latency conditions.
+* Integrate real-time telemetry collection from IoT devices.
+* Deploy the MLP model as a live congestion prediction service.
+* Extend the framework for larger 6G edge networks.
+* Compare MLP performance with Random Forest and XGBoost models.
+* Implement adaptive bandwidth allocation based on predictions.
+* Evaluate performance under varying traffic loads and latency conditions.
+
 ## Author
 
-Vinayak Khandelwal
-NSUT Delhi
-## Development Progress
-
-### May 20
-Initial project implementation covering the congestion dataset,
-AI telemetry, ANN training pipeline, and 6G backhaul simulation.
-
-### May 23
-Documented the overall workflow connecting telemetry collection,
-AI-based congestion prediction, and the backhaul control process.
-
-### May 26
-Expanded documentation for the AI prediction component and
-anticipatory congestion-control mechanism.
-
-### May 29
-Added documentation describing the evaluation process and
-congestion-performance results.
-
-### May 31
-Finalized the initial project documentation and consolidated
-the implementation, workflow, and evaluation overview.
+**Vinayak Khandelwal**
+Netaji Subhas University of Technology (NSUT), Delhi
