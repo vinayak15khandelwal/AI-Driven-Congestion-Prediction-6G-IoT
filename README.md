@@ -22,7 +22,7 @@ The framework predicts network congestion using a Multi-Layer Perceptron (MLP) m
 
 The Anticipatory Congestion Control Framework (ACCF) consists of three interconnected planes:
 
-* Data Plane: IoT sensors, gNodeB, OVS switch.
+* Data Plane: IoT sensors, gNodeB, OVS switch, and MEC server.
 * Control Plane: SDN controller collecting flow statistics.
 * Intelligence Plane: MLP classifier predicting congestion and triggering throttle decisions.
 
