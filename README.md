@@ -28,7 +28,15 @@ The Anticipatory Congestion Control Framework (ACCF) consists of three interconn
 
 ![ACCF Architecture](assets/accf-architecture.png)
 
+## Workflow
 
+1. IoT sensors generate telemetry traffic.
+2. Traffic is forwarded through the gNodeB and OVS switch.
+3. The SDN controller collects flow statistics from the network.
+4. The telemetry agent extracts relevant congestion features.
+5. The MLP classifier predicts whether congestion is likely to occur.
+6. Based on the prediction, the controller decides to maintain normal operation or throttle traffic.
+7. The decision helps prevent queue overflow and reduces network latency.
 
 ## Project Structure
 
