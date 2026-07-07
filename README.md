@@ -38,6 +38,30 @@ The Anticipatory Congestion Control Framework (ACCF) consists of three interconn
 6. Based on the prediction, the controller decides to maintain normal operation or throttle traffic.
 7. The decision helps prevent queue overflow and reduces network latency.
 
+## Project Structure
+
+```text
+AI-Driven-Congestion-Prediction-6G-IoT/
+│
+├── assets/
+│   └── accf-architecture.png
+│
+├── dataset/
+│   └── congestion_dataset.csv
+│
+├── src/
+│   ├── 6G_Backhaul.py
+│   ├── ai_telemetry.py
+│   └── train_ann.py
+│
+├── results/
+│   └── congestion_graph.png
+│
+├── research-paper/
+│   └── 6G_PROJECT_RESEARCH_PAPER.pdf
+│
+└── README.md
+```
 
 ## Features
 
