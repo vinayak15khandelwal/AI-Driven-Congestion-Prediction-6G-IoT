@@ -63,6 +63,13 @@ AI-Driven-Congestion-Prediction-6G-IoT/
 └── README.md
 ```
 
+## Features
+
+* Congestion prediction using MLP
+* Real-time telemetry analysis
+* SDN-based congestion management
+* Dataset generation and training pipeline
+* Performance visualization
 
 ## Technologies Used
 
