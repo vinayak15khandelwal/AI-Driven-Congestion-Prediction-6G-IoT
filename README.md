@@ -10,59 +10,6 @@ The framework predicts network congestion using a Multi-Layer Perceptron (MLP) m
 * Network Latency
 * Available Bandwidth
 
-## Key Contributions
-
-* Designed an AI-driven Anticipatory Congestion Control Framework (ACCF) for 6G IoT backhaul networks.
-* Implemented congestion prediction using a Multi-Layer Perceptron (MLP) model.
-* Integrated Software Defined Networking (SDN) telemetry for proactive traffic management.
-* Developed a simulation environment for evaluating congestion scenarios.
-* Demonstrated significant latency reduction through predictive congestion control.
-
-## ACCF Architecture
-
-The Anticipatory Congestion Control Framework (ACCF) consists of three interconnected planes:
-
-* Data Plane: IoT sensors, gNodeB, OVS switch, and MEC server.
-* Control Plane: SDN controller collecting flow statistics.
-* Intelligence Plane: MLP classifier predicting congestion and triggering throttle decisions.
-
-![ACCF Architecture](assets/accf-architecture.png)
-
-## Workflow
-
-1. IoT sensors generate telemetry traffic.
-2. Traffic is forwarded through the gNodeB and OVS switch.
-3. The SDN controller collects flow statistics from the network.
-4. The telemetry agent extracts relevant congestion features.
-5. The MLP classifier predicts whether congestion is likely to occur.
-6. Based on the prediction, the controller decides to maintain normal operation or throttle traffic.
-7. The decision helps prevent queue overflow and reduces network latency.
-
-## Project Structure
-
-```text
-AI-Driven-Congestion-Prediction-6G-IoT/
-│
-├── assets/
-│   └── accf-architecture.png
-│
-├── dataset/
-│   └── congestion_dataset.csv
-│
-├── src/
-│   ├── 6G_Backhaul.py
-│   ├── ai_telemetry.py
-│   └── train_ann.py
-│
-├── results/
-│   └── congestion_graph.png
-│
-├── research-paper/
-│   └── 6G_PROJECT_RESEARCH_PAPER.pdf
-│
-└── README.md
-```
-
 ## Features
 
 * Congestion prediction using MLP
