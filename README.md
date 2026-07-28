@@ -2,6 +2,9 @@
 
 ## Overview
 
+This project presents an AI-driven anticipatory congestion control framework for simulated 6G IoT backhaul networks using Machine Learning and Software Defined Networking (SDN).
+
+The framework predicts network congestion using a Multi-Layer Perceptron (MLP) model trained on telemetry parameters such as:
 
 * Queue Size
 * Network Latency
