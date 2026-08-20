@@ -12,7 +12,11 @@ The framework predicts network congestion using a Multi-Layer Perceptron (MLP) m
 
 ## Key Contributions
 
-
+* Designed an AI-driven Anticipatory Congestion Control Framework (ACCF) for 6G IoT backhaul networks.
+* Implemented congestion prediction using a Multi-Layer Perceptron (MLP) model.
+* Integrated Software Defined Networking (SDN) telemetry for proactive traffic management.
+* Developed a simulation environment for evaluating congestion scenarios.
+* Demonstrated significant latency reduction through predictive congestion control.
 
 ## ACCF Architecture
 
